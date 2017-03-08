@@ -28,14 +28,14 @@ td { valign:top; }
 npm install -g webpack http-server
 ```
 
-### Clone `hello-d3-es6-webpack2`
+### Clone `hello-d3-es6-webpack2` into `d3-demo` directory
 ```
-git clone https://github.com/saun4app/hello-d3-es6-webpack2.git
+git clone https://github.com/saun4app/hello-d3-es6-webpack2.git d3-demo
 ```
 
 or
 
-### Create manually
+### Create the code manually
 
 ```
 mkdir d3-demo
