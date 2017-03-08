@@ -7,14 +7,14 @@ td { valign:top; }
 
 <table>
 <tr>
-<td>ES6 Code
+<td valign="top">ES6 Code
 <ul>
 <li>app/d3_circle.js</li>
 <li>demo/demo.js</li>
 </ul>
 </td>
 <td> ==> </td>
-<td>Browser-ready JavaScript
+<td valign="top">Browser-ready JavaScript
 <ul><li>demo/browser_bundle.js</li></ul>
 </td>
 </tr>
