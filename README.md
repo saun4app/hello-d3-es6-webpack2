@@ -9,13 +9,13 @@ td { valign:top; }
 <tr>
 <td>ES6 Code
 <ul>
-<li>`app/d3_circle.js`</li>
-<li>`demo/demo.js`</li>
+<li>app/d3_circle.js</li>
+<li>demo/demo.js</li>
 </ul>
 </td>
 <td> ==> </td>
 <td>Browser-ready JavaScript
-<ul><li>`demo/browser_bundle.js`</li></ul>
+<ul><li>demo/browser_bundle.js</li></ul>
 </td>
 </tr>
 </table>
@@ -52,8 +52,8 @@ npm install --save d3
 webpack demo/demo.js demo/browser_bundle.js
 ```
 In webpack 2 terminology
-- `demo/demo.js` is the [**entry point**]( https://webpack.js.org/concepts/entry-points)
-- `demo/browser_bundle.js` is the [**output**]( https://webpack.js.org/concepts/output)
+- `demo/demo.js` is the <a href="https://webpack.js.org/concepts/entry-points" target="_black">**entry point**</a>
+- `demo/browser_bundle.js` is the <a href="https://webpack.js.org/concepts/output" target="_black">**entry output**</a>
 
 ### Start the server from `demo` directory
 ```bash
