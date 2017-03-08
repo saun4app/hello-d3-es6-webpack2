@@ -51,7 +51,7 @@ npm install --save d3
 ```bash
 webpack demo/demo.js demo/browser_bundle.js
 ```
-In webpack 2 terminology
+Webpack 2 terminology
 - `demo/demo.js` is the <a href="https://webpack.js.org/concepts/entry-points" target="_black">**entry point**</a>
 - `demo/browser_bundle.js` is the <a href="https://webpack.js.org/concepts/output" target="_black">**entry output**</a>
 
@@ -66,7 +66,6 @@ http-server
 
 ### Directory Structure
 ```
-
 d3-demo
 ├── app
 │   └── d3_circle.js
@@ -74,13 +73,12 @@ d3-demo
 │   ├── demo.js
 │   └── index.html
 ├── node_modules
-├── LICENSE
-└── README.md
-
 ```
 
-### File Content
-app/d3_circle.js
+### JavaScript and HTML Files
+
+**app/d3_circle.js**
+
 ```javascript
 import * as d3 from 'd3';
 
@@ -100,7 +98,8 @@ export class D3Circle {
 
 ```
 
-demo/demo.js
+**demo/demo.js**
+
 ```javascript
 import { D3Circle } from '../app/d3_circle.js';
 
@@ -108,7 +107,8 @@ var chart_obj = new D3Circle();
 chart_obj.draw('el_chart');
 ```
 
-demo/index.html
+**demo/index.html**
+
 ```html
 <html>
 <head>
