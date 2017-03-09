@@ -1,5 +1,5 @@
 # hello-d3-es6-webpack2
-`hello-d3-es6-webpack2` shows an example of using `webpack 2` to create a browser ready JavaScript file from a ES6 class.  
+`hello-d3-es6-webpack2` shows an example of using `webpack 2` to create a browser ready JavaScript file (`browser_bundle.js`) from a ES6 class.  
 
 <style>
 td { valign:top; }
@@ -70,6 +70,7 @@ d3-demo
 ├── app
 │   └── d3_circle.js
 ├── demo
+│   ├── browser_bundle.js
 │   ├── demo.js
 │   └── index.html
 ├── node_modules
@@ -113,14 +114,13 @@ chart_obj.draw('el_chart');
 <html>
 <head>
     <title>d3 demo ES6 webpack 2 </title>
+    <script src='browser_bundle.js'></script>
 </head>
 <body>
     <div id='el_chart'></div>
-    <script src='browser_bundle.js'></script>
 </body>
 </html>
 ```
-
 
 ## Resources
 - https://webpack.js.org/guides/get-started
